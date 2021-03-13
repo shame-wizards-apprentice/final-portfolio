@@ -1,11 +1,13 @@
 /* Light mode */
 body {
-    background-image: linear-gradient(to top, #8b8299, #e4e5e6)
+    background-image: linear-gradient(to top, #8b8299, #e4e5e6);
+    font-family: 'Source Code Pro', monospace;
 }
 
-#projects {
-    background-image: linear-gradient(to bottom, #e4e5e6, white, #8b8299)
+.container {
+    background-image: linear-gradient(to bottom, #e4e5e6, white, #8b8299);
 }
+
 
 .card-content {
     background-color: lightgrey;
@@ -16,6 +18,9 @@ body {
 }
 
 /* Stuff that doesn't change */
+h3 {
+    margin-left: 2vw;
+}
 .project-text {
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
@@ -31,15 +36,11 @@ body {
 
 .project-blurb {
     margin-top: 10px;
-}
-
-.description {
-    font-family: 'Source Code Pro', monospace;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .tech-list-heading {
     margin-top: 5vh;
-    font-family: 'Source Code Pro', monospace;
 }
 
 

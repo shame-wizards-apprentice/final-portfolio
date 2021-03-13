@@ -1,7 +1,14 @@
+// Enable scrollspy
+$(document).ready(function () {
+    $('.scrollspy').scrollSpy();
+});
+
 // Switch between dark and light mode
 $("#dark").on("click", () => {
+    // Global
     $("body").css({ "background-image": "linear-gradient(to top, #000000, #434343)" });
-    $("#projects").css({ "background-image": "linear-gradient(to bottom, #434343, #121212, #000000)" });
+    $(".container").css({ "background-image": "linear-gradient(to bottom, #434343, #121212, #000000)" });
+    // Projects page
     $(".description").css({ "color": "rgba(255, 255, 255, .8)" });
     $(".tech-list-heading").css({ "color": "rgba(255, 255, 255, .8)" });
     $(".project-title").css({ "color": "rgba(255, 255, 255, .8)" });
@@ -14,8 +21,10 @@ $("#dark").on("click", () => {
 })
 
 $("#light").on("click", () => {
+    // Global
     $("body").css({ "background-image": "linear-gradient(to top, #8b8299, #e4e5e6)" });
-    $("#projects").css({ "background-image": "linear-gradient(to bottom, #e4e5e6, white, #8b8299)" });
+    $(".container").css({ "background-image": "linear-gradient(to bottom, #e4e5e6, white, #8b8299)" });
+    // Projects page
     $(".card-content").css({ "background-color": "lightgrey" });
     $(".card").css({ "border": "solid 5px black;" });
     $(".description").css({ "color": "black" });
