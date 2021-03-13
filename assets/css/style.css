@@ -1,0 +1,50 @@
+/* Light mode */
+body {
+    background-image: linear-gradient(to top, #8b8299, #e4e5e6)
+}
+
+#projects {
+    background-image: linear-gradient(to bottom, #e4e5e6, white, #8b8299)
+}
+
+.card-content {
+    background-color: lightgrey;
+}
+
+.card {
+    border: solid 5px black;
+}
+
+/* Stuff that doesn't change */
+.project-text {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+.project-title {
+    font-size: large;
+}
+
+.close-btn {
+    font-size: x-small;
+}
+
+.project-blurb {
+    margin-top: 10px;
+}
+
+.description {
+    font-family: 'Source Code Pro', monospace;
+}
+
+.tech-list-heading {
+    margin-top: 5vh;
+    font-family: 'Source Code Pro', monospace;
+}
+
+
+
+
+
+
+
