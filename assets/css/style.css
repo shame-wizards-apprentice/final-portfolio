@@ -17,6 +17,15 @@ body {
     border: solid 5px black;
 }
 
+.link {
+    color: black;
+}
+
+#contact {
+    background-color: lightgrey;
+    border: 5px solid black;
+}
+
 /* Stuff that doesn't change */
 h3 {
     margin-left: 2vw;
@@ -49,8 +58,8 @@ h3 {
     box-shadow: 5px 10px 20px;
 }
 
-#initialization {
-    position: fixed !important;
+#return {
+    margin-left: 2vw;
 }
 
 
