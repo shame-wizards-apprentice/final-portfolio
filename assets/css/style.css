@@ -43,6 +43,16 @@ h3 {
     margin-top: 5vh;
 }
 
+#it-me {
+    margin-left: 2vw;
+    width: 30vw;
+    box-shadow: 5px 10px 20px;
+}
+
+#initialization {
+    position: fixed !important;
+}
+
 
 
 

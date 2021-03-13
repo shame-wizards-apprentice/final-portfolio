@@ -14,7 +14,20 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
-<body>
+<body class="row">
+    <aside id="initialization" class="section scrollspy">
+    </aside>
+    </div>
+    <div class="col hide-on-small-only m3 l2">
+        <ul class="section table-of-contents">
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#projects">About My Work</a></li>
+            <li><a href="#initialization">Intialization</a></li>
+        </ul>
+    </div>
+    </div>
+
+
     <main class="container">
         <aside class="row">
             <a id="dark" class="waves-effect waves-light btn-small grey darken-4">Dark Mode</a>
@@ -25,8 +38,10 @@
             <article>
                 <header>
                     <h3>About Me</h3>
-                    <p>Here's some fucking text</p>
                 </header>
+                <div class="row">
+                    <img id="it-me" class="col s6" src="assets/images/about.png">
+                </div>
             </article>
         </section>
 
@@ -56,12 +71,12 @@
                                 dungeon-crawler RPG
                                 built using React.js and Redux, designed to teach
                                 basic coding concepts and provide practice for algorithm challenges to new developers
-                                seeking a fun and interactive way to implement their skills. Travel through the caverns
-                                of
-                                Castle
-                                Full Stack and gain wisdom from Zac, Aslan, and Denis before facing the ultimate
-                                challenge
-                                with Joe the Dev Wizard.</p>
+                                seeking a fun and interactive way to implement their skills. I collaborated on a team of
+                                four to produce this final project for bootcamp; we sought to challenge ourselves,
+                                create something fun, nostalgic, and useful, and have enormous fun doing it. I built the
+                                server and database for this project, as well as writing the storyline and NPC dialogue
+                                and implementing an in-browser code editor
+                                and mock test suite to evaluate users' solutions to our algorithm challgnes.</p>
                             <br>
                             <p class="project-text"><a target="blank"
                                     href="https://github.com/vantango/htmlephant-front-end">Front-end Github
@@ -113,19 +128,14 @@
                             <span class="card-title project-text project-title">We love
                                 food...<i class="close-btn material-icons right project-text">CLOSE</i></span>
                             <br>
-                            <p class="project-blurb" class="project-text">...and have opinions about yours. Users who
-                                want to
-                                keep impeccable track of the food in their kitchens can create an account, which comes
-                                with
-                                a virtual fridge, freezer, pantry, and shopping list--and the option to add, delete, or
-                                rename as many new locations as they like in order to fully customize their kitchen to
-                                fit
-                                their needs. The Cado family (Ava, Barry, and little Cara) will keep watch over your
-                                kitchen
-                                while you're away, and help make sure you use all your food before it goes bad. Last but
-                                not
-                                least, be sure to click on Ava Cado in the upper left-hand corner for a solid piece of
-                                advice anytime you need it.</p>
+                            <p class="project-blurb" class="project-text">...and have opinions about yours. For the
+                                second major project of bootcamp, my team of four wanted to create an app to help anyone
+                                who struggles with keeping their kitchen organized--so, everyone! Realizing we were
+                                working in a fairly saturated market, we set out to make our app unique with a choice of
+                                visual themes, the addition of daily humorous life advice provided by the WikiHow API,
+                                and most importantly, the adorable Cado Family to keep watch over our users and their
+                                food. I served as the back-end engineer on this project, building the server and
+                                database and carefully curating our selection of life advice.</p>
                             <br>
                             <p class="project-text"><a target="blank"
                                     href="https://github.com/shame-wizards-apprentice/despensa">Github
@@ -170,22 +180,15 @@
                             <span class="card-title project-text project-title">re:Analysis<i
                                     class="close-btn material-icons right project-text">CLOSE</i></span>
                             <br>
-                            <p class="project-blurb" class="project-text">Emails are an integral part of professional
-                                and
-                                business operations; however, a significant amount of subtext is lost in a written
-                                message,
-                                particularly the tone of the message itself. This can present challenges when an
-                                employee
-                                unintentionally sends an email that the recipient could interpret negatively or
-                                combatively.
-                                Cloud Natural Language is an API that analyzes language and provides information about
-                                the
-                                perceived tone of the message through a machine-learning-derived understanding of
-                                colloquial
-                                speech. re:Analysis combines the two to provide immediate tone and sentiment feedback on
-                                emails and other written professional communication, so you'll never worry about your
-                                tone
-                                in emails again.</p>
+                            <p class="project-blurb" class="project-text">For the first collaborative project of
+                                bootcamp, my team wanted to build something we would all use in our day-to-day lives. We
+                                found that we all send a large number of emails and handle lots of other written
+                                professional communication, and once we discovered Google Cloud's Natural Language API,
+                                re:Analysis was born. Our app provides sentiment, tone, and entity recognition data for
+                                users' text to optimize audience reception and clear up confusion stemming from commonly
+                                misused words. Though it is primarily designed for professional emails, it works with
+                                anything under the sun--including risky texts! I designed the UI for this project, and
+                                implemented the Wikipedia API for information on most nouns detected in users' text.</p>
                             <br>
                             <p class="project-text"><a target="blank"
                                     href="https://github.com/shame-wizards-apprentice/pro-communication-analysis">Github
@@ -224,10 +227,11 @@
                                 WA...<i class="close-btn material-icons right project-text">CLOSE</i></span>
                             <br>
                             <p class="project-blurb" class="project-text">
-                                ...Or any city you so desire. Find yourself searching for the weather in a specific city
-                                often? Click "save" to view the local weather conditions with the click of a button.
-                                Simply curious about a city you never plan to visit again? Just click "search" to skip
-                                that step. Either way, enjoy the UI inspired by a certain popular sci-fi series.
+                                ...Or any city you so desire. This app uses the Open Weather API and the
+                                <a target="blank" href="https://github.com/joernweissenborn/lcars">
+                                    LCARS CSS library</a> to create a useful app for searching and saving weather
+                                conditions in amy given city, with a fun UI based on a certain popular circa-1990
+                                television series.
                             </p>
                             <br>
                             <p class="project-text"><a target="blank"

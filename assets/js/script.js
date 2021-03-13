@@ -1,6 +1,17 @@
 // Enable scrollspy
-$(document).ready(function () {
+$(document).ready(() => {
     $('.scrollspy').scrollSpy();
+});
+
+$(window).scroll(e => {
+    const $el = $("#initialization");
+    const isPositionFixed = ($el.css("position") == "fixed");
+    if ($(this).scrollTop() > 200 && !isPositionFixed) {
+        $el.css({ "position": "fixed", "top": "0px" });
+    }
+    if ($(this).scrollTop() < 200 && isPositionFixed) {
+        $el.css({ "position": "static", "top": "0px" });
+    }
 });
 
 // Switch between dark and light mode
