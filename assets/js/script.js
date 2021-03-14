@@ -1,6 +1,7 @@
 // Enable scrollspy
 $(document).ready(() => {
     $('.scrollspy').scrollSpy();
+    // Fetch last used mode from local storage, or display light mode if no record
     switch (localStorage.getItem("mode")) {
         case "dark":
             $("body").css({ "background-image": "linear-gradient(to top, #000000, #434343)", "color": "rgba(255, 255, 255, .8)" });
