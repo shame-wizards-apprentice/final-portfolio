@@ -14,7 +14,7 @@ body {
 }
 
 .card {
-    border: solid 5px black;
+    box-shadow: 5px 10px 20px;
 }
 
 .link {
@@ -23,7 +23,7 @@ body {
 
 #contact {
     background-color: lightgrey;
-    border: 5px solid black;
+    box-shadow: 5px 10px 20px;
 }
 
 /* Stuff that doesn't change */
