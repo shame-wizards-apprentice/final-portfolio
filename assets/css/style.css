@@ -21,11 +21,6 @@ body {
     color: black;
 }
 
-#contact {
-    background-color: lightgrey;
-    box-shadow: 5px 10px 20px;
-}
-
 /* Stuff that doesn't change */
 h3 {
     margin-left: 2vw;
