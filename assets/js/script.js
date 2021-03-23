@@ -1,6 +1,4 @@
-// Enable scrollspy
 $(document).ready(() => {
-    $('.scrollspy').scrollSpy();
     // Fetch last used mode from local storage, or display light mode if no record
     switch (localStorage.getItem("mode")) {
         case "dark":
@@ -44,6 +42,7 @@ $("#mode").on("click", () => {
             $(".card-content").css({ "background-color": "#121212" });
             $("#contact").css({ "background-color": "#121212" });
             $(".card-reveal").css({ "background-color": "#121212" });
+            $("#return").removeClass("grey darken-4").addClass("deep-purple lighten-5 black-text");
             localStorage.setItem("mode", "dark");
             break;
 
@@ -58,6 +57,7 @@ $("#mode").on("click", () => {
             $("#contact").css({ "background-color": "lightgrey" });
             $(".card").css({ "border": "solid 5px black;" });
             $(".card-reveal").css({ "background-color": "white" });
+            $("#return").removeClass("deep-purple lighten-5 black-text").addClass("grey darken-4");
             localStorage.setItem("mode", "light");
             break;
 
@@ -72,6 +72,7 @@ $("#mode").on("click", () => {
             $("#contact").css({ "background-color": "lightgrey" });
             $(".card").css({ "border": "solid 5px black;" });
             $(".card-reveal").css({ "background-color": "white" });
+            $("#return").removeClass("grey darken-4").addClass("deep-purple lighten-5 black-text");
             localStorage.setItem("mode", "light");
     }
 
