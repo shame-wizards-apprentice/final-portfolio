@@ -66,6 +66,11 @@ h3 {
     .tech {
         display: none
     }
+
+    /* #top {
+        display: flex;
+        flex-direction: column;
+    } */
 }
 
 
