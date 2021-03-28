@@ -47,6 +47,10 @@ h3 {
     margin-top: 5vh;
 }
 
+#intro-tech {
+    margin-left: 5vw;
+}
+
 #it-me {
     margin-left: 2vw;
     width: 30vw;
@@ -56,6 +60,12 @@ h3 {
 #return {
     margin-left: 2vw;
     box-shadow: 2px 2px 5px;
+}
+
+@media only screen and (max-width: 600px) {
+    .tech {
+        display: none
+    }
 }
 
 

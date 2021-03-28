@@ -15,69 +15,65 @@
 </head>
 
 <body class="row">
-
     <aside id="top" class="row">
         <a id="mode" class="waves-effect waves-light btn-small grey darken-4">Dark Mode</a>
         <a id="about-btn" class="waves-effect waves-light btn-small grey darken-4">About Me</a>
         <a id="projects-btn" class="waves-effect waves-light btn-small grey darken-4">About My Work</a>
         <a href="#contact" id="contact-btn" class="waves-effect waves-light btn-small grey darken-4">Contact Me</a>
     </aside>
-
     <main class="container">
-
-
-        <section id="about" class="section scrollspy">
+        <section id="about">
             <article>
                 <header class="row">
-                    <h3 class="col s6">About Me</h3>
-                    <h4 class="col s6">Hi! I'm Rachel.</h4>
+                    <h3 class="col s12 m6">About Me</h3>
                 </header>
+
                 <div class="row">
-                    <div class="col s6">
+                    <div class="col s12 m6">
                         <img id="it-me" src="assets/images/about.png">
                     </div>
-                    <div class="col s6">
-                        <div class="row">
-                            <div class="col s7">
-                                <p>I'm a new graduate of the University of Washington's Full Stack Web Development
-                                    Bootcamp,
-                                    where I discovered a huge amount of joy in building web apps with both utility and
-                                    personality.
-                                    I build stylish, functional MERN-stack applications and pride myself on
-                                    delivering complete, cohesive projects from the ground up. Click on "About My Work"
-                                    for more in-depth information about what I do, and drop me a line with any and all
-                                    questions!
-                                </p>
-                            </div>
-                            <div class="col s3">
-                                <h6>I work with:</h6>
-                                <ul>
-                                    <li>HTML5</li>
-                                    <li>CSS</li>
-                                    <li>Javascript/ES6</li>
-                                    <li>jQuery</li>
-                                    <li>React.js</li>
-                                    <li>Redux.js</li>
-                                    <li>Node.js</li>
-                                    <li>Express.js</li>
-                                    <li>MySQL/Sequelize</li>
-                                    <li>MongoDB/Mongoose</li>
-                                    <br>
-                                    <li>And more!</li>
-                                </ul>
-                            </div>
-                        </div>
+                    <div id="summary" class="col s12 m6">
+                        <h4>Hi! I'm Rachel.</h4>
+                        <p>I'm a new graduate of the University of Washington's Full Stack Web Development
+                            Bootcamp,
+                            where I discovered a huge amount of joy in building web apps with both utility and
+                            personality.
+                            I build stylish, functional MERN-stack applications and pride myself on
+                            delivering complete, cohesive projects from the ground up. Click on "About My Work"
+                            for more in-depth information about what I do, and drop me a line with any and all
+                            questions!
+                        </p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="tech" id="intro-tech" class="col s3">
+                        <h5>I work with:</h5>
+                        <ul>
+                            <li>HTML5</li>
+                            <li>CSS</li>
+                            <li>Javascript/ES6</li>
+                            <li>jQuery</li>
+                            <li>React.js</li>
+                            <li>Redux.js</li>
+                            <li>Node.js</li>
+                            <li>Express.js</li>
+                            <li>MySQL/Sequelize</li>
+                            <li>MongoDB/Mongoose</li>
+                            <br>
+                            <li>And more!</li>
+                        </ul>
                     </div>
                 </div>
             </article>
         </section>
 
-        <section id="projects" class="section scrollspy">
+        <section id="projects">
             <header class="row">
                 <h3>About My Work</h3>
             </header>
             <section class="row">
-                <figure class="col s8">
+                <figure class="col s12 m8">
                     <div class="card">
                         <div class="card-image waves-effect waves-block waves-light">
                             <img class="activator" src="assets/images/wizards.png">
@@ -115,7 +111,7 @@
                         </div>
                     </div>
                 </figure>
-                <div class="col s3">
+                <div class="tech col s3">
                     <h6 class="tech-list-heading">Technologies:</h6>
                     <ul class="description">
                         <li>Piskel</li>
@@ -138,7 +134,7 @@
             </section>
 
             <section class="row">
-                <figure class="col s8 push-s4">
+                <figure class="col s12 m8 push-m4">
                     <div class="card">
                         <div class="card-image waves-effect waves-block waves-light">
                             <img class="activator" src="assets/images/despensa.png">
@@ -173,7 +169,7 @@
                     </div>
                 </figure>
 
-                <div class="col s3 pull-s8">
+                <div class="tech col s3 pull-s8">
                     <h6 class="tech-list-heading">Technologies:</h6>
                     <ul class="description">
                         <li>WikiHow API</li>
@@ -190,7 +186,7 @@
             </section>
 
             <section class="row">
-                <figure class="col s8">
+                <figure class="col s12 m8">
                     <div class="card">
                         <div class="card-image waves-effect waves-block waves-light">
                             <img class="activator" src="assets/images/analysis .png">
@@ -224,7 +220,7 @@
                     </div>
                 </figure>
 
-                <div class="col s3">
+                <div class="col s3 tech">
                     <h6 class="tech-list-heading">Technologies:</h6>
                     <ul class="description">
                         <li>jQuery/Ajax</li>
@@ -236,7 +232,7 @@
             </section>
 
             <section class="row">
-                <figure class="col s8 push-s4">
+                <figure class="col s12 m8 push-m4">
                     <div class="card">
                         <div class="card-image waves-effect waves-block waves-light">
                             <img class="activator" src="assets/images/weather.png">
@@ -268,7 +264,7 @@
                     </div>
                 </figure>
 
-                <div class="col s3 pull-s8">
+                <div class="col s3 pull-s8 tech">
                     <h6 class="tech-list-heading">Technologies:</h6>
                     <ul class="description">
                         <li>jQuery/Ajax</li>
@@ -281,7 +277,7 @@
             </section>
 
             <section class="row">
-                <figure class="col s8">
+                <figure class="col s12 m8">
                     <div class="card">
                         <div class="card-image waves-effect waves-block waves-light">
                             <img class="activator" src="assets/images/quiz .png">
@@ -310,7 +306,7 @@
                     </div>
                 </figure>
 
-                <div class="col s3">
+                <div class="col s3 tech">
                     <h6 class="tech-list-heading">Technologies:</h6>
                     <ul class="description">
                         <li>HTLM5</li>
@@ -322,27 +318,27 @@
 
         </section>
 
-        <section id="contact" class="section scrollspy">
+        <section id="contact">
             <article class="row">
                 <header>
                     <h3>
                         Contact Me:
                     </h3>
                 </header>
-                <div class="col s3">
+                <div class="col s5 m3">
                     <p class="social">Github:<br><a target="blank"
                             href="https://github.com/shame-wizards-apprentice">shame-wizards-apprentice</a>
                     </p>
                 </div>
                 <div class="col s1"></div>
-                <div class="col s3">
+                <div class="col s5 m3">
                     <p class="social">LinkedIn:<br><a target="blank"
                             href="https://github.com/shame-wizards-apprentice">Rachel
                             Nelson-Schille</a>
                     </p>
                 </div>
                 <div class="col s1"></div>
-                <div class="col s3">Email: rachelnelsonschille@gmail.com</div>
+                <div class="col s5 m3">Email: rachelnelsonschille@gmail.com</div>
             </article>
             <a id="return" href="#top" class="waves-effect waves-light btn-small grey darken-4">Back to top</a>
         </section>
