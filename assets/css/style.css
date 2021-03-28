@@ -48,8 +48,13 @@ h3 {
 }
 
 #intro-tech {
-    margin-left: 5vw;
+    margin-left: 2vw;
 }
+
+#current-projects {
+    margin-left: 1vw;
+}
+
 
 #it-me {
     margin-left: 2vw;
@@ -63,14 +68,9 @@ h3 {
 }
 
 @media only screen and (max-width: 600px) {
-    .tech {
+    .tech-list-heading, .description {
         display: none
     }
-
-    /* #top {
-        display: flex;
-        flex-direction: column;
-    } */
 }
 
 
