@@ -8,7 +8,6 @@ body {
     background-image: linear-gradient(to bottom, #e4e5e6, white, #8b8299);
 }
 
-
 .card-content {
     background-color: lightgrey;
 }
@@ -54,7 +53,6 @@ h3 {
 #current-projects {
     margin-left: 1vw;
 }
-
 
 #it-me {
     margin-left: 2vw;
