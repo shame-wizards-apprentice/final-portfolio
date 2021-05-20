@@ -1,4 +1,6 @@
 $(document).ready(() => {
+    $('.tooltipped').tooltip();
+
     aboutMe();
     // Fetch last used mode from local storage, or display light mode if no record
     switch (localStorage.getItem("mode")) {
@@ -23,6 +25,8 @@ const darkMode = () => {
     $(".card-reveal").css({ "background-color": "#121212" });
     $("#mode").text("Light Mode");
     $(".btn-small").removeClass("grey darken-4").addClass("deep-purple lighten-5 black-text");
+    $("#github").attr("src", "assets/images/github-dark.png");
+    $("#linkedin").attr("src", "assets/images/dark-linkedin.png");
     localStorage.setItem("mode", "dark");
 }
 
@@ -35,6 +39,8 @@ const lightMode = () => {
     $(".card-reveal").css({ "background-color": "white" });
     $("#mode").text("Dark Mode");
     $(".btn-small").removeClass("deep-purple lighten-5 black-text").addClass("grey darken-4");
+    $("#github").attr("src", "assets/images/github-light.png");
+    $("#linkedin").attr("src", "assets/images/light-linkedin.png");
     localStorage.setItem("mode", "light");
 }
 
