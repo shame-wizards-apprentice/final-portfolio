@@ -69,7 +69,15 @@ h3 {
     height: 10vh
 }
 
+#social {
+    margin-left: 5vw;
+}
+
 @media only screen and (max-width: 600px) {
+    #social {
+        margin: 0 auto
+    }
+    
     .tech-list-heading, .description {
         display: none
     }
