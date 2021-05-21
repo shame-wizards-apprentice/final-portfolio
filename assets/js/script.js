@@ -23,7 +23,8 @@ const darkMode = () => {
     $(".container").css({ "background-image": "linear-gradient(to bottom, #434343, #121212, #000000)" });
     $(".card-content").css({ "background-color": "#121212" });
     $(".card-reveal").css({ "background-color": "#121212" });
-    $("#mode").text("Light Mode");
+    $("#mode-button").attr("src", "assets/images/light-mode.png");
+    $("#mode").attr("data-tooltip", "Light Mode");
     $(".btn-small").removeClass("grey darken-4").addClass("deep-purple lighten-5 black-text");
     $("#github").attr("src", "assets/images/github-dark.png");
     $("#linkedin").attr("src", "assets/images/dark-linkedin.png");
@@ -37,7 +38,8 @@ const lightMode = () => {
     $(".card-content").css({ "background-color": "lightgrey" });
     $(".card").css({ "border": "solid 5px black;" });
     $(".card-reveal").css({ "background-color": "white" });
-    $("#mode").text("Dark Mode");
+    $("#mode-button").attr("src", "assets/images/dark-mode.png");
+    $("#mode").attr("data-tooltip", "Dark Mode");
     $(".btn-small").removeClass("deep-purple lighten-5 black-text").addClass("grey darken-4");
     $("#github").attr("src", "assets/images/github-light.png");
     $("#linkedin").attr("src", "assets/images/light-linkedin.png");
